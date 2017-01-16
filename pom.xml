@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.aquadiva</groupId>
-	<artifactId>ad-ontology-selection</artifactId>
+	<artifactId>joyce</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>AquaDiva Ontology Selection</name>
 	<description>The parent POM Maven project for the AquaDiva Ontology Selection tool suite.</description>
@@ -30,12 +30,12 @@
 				</configuration>
 			</plugin>
 			<plugin>
-   <groupId>org.apache.maven.plugins</groupId>
-   <artifactId>maven-surefire-plugin</artifactId>
-   <configuration>
-     <skipTests>true</skipTests>
-   </configuration>
- </plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skipTests>false</skipTests>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
