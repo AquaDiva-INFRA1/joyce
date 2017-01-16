@@ -1,0 +1,15 @@
+[submodule "joyce-reasoning"]
+	path = joyce-reasoning
+	url = https://github.com/khituras/joyce-reasoning.git
+[submodule "joyce-processes"]
+	path = joyce-processes
+	url = https://github.com/khituras/joyce-processes.git
+[submodule "joyce-evaluation"]
+	path = joyce-evaluation
+	url = https://github.com/khituras/joyce-evaluation.git
+[submodule "joyce-core"]
+	path = joyce-core
+	url = https://github.com/khituras/joyce-core.git
+[submodule "joyce-base"]
+	path = joyce-base
+	url = https://github.com/khituras/joyce-base.git
