@@ -3,13 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.aquadiva</groupId>
 	<artifactId>ad-ontology-selection</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>AquaDiva Ontology Selection</name>
 	<description>The parent POM Maven project for the AquaDiva Ontology Selection tool suite.</description>
 	<packaging>pom</packaging>
 	<properties>
 		<tapestry.version>5.3.8</tapestry.version>
-		<app-version>0.0.2-SNAPSHOT</app-version>
 	</properties>
 	<build>
 		<plugins>
@@ -48,10 +47,10 @@
 		</dependency>
 	</dependencies>
 	<modules>
-		<module>../ad-ontology-selection-base</module>
-		<module>../ad-ontology-selection-core</module>
-		<module>../ad-ontology-selection-processes</module>
-		<module>../ad-ontology-selection-reasoning</module>
-		<module>../ad-ontology-selection-evaluation</module>
+		<module>joyce-base</module>
+		<module>joyce-core</module>
+		<module>joyce-processes</module>
+		<module>joyce-reasoning</module>
+		<module>joyce-evaluation</module>
 	</modules>
 </project>
