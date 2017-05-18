@@ -13,3 +13,6 @@
 [submodule "joyce-base"]
 	path = joyce-base
 	url = https://github.com/khituras/joyce-base.git
+[submodule "joyce-webapp"]
+	path = joyce-webapp
+	url = https://github.com/fklan/joyce-webapp.git
