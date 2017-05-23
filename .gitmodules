@@ -1,18 +1,24 @@
 [submodule "joyce-reasoning"]
 	path = joyce-reasoning
 	url = https://github.com/khituras/joyce-reasoning.git
+	branch = master
 [submodule "joyce-processes"]
 	path = joyce-processes
 	url = https://github.com/khituras/joyce-processes.git
+	branch = master
 [submodule "joyce-evaluation"]
 	path = joyce-evaluation
 	url = https://github.com/khituras/joyce-evaluation.git
+	branch = master
 [submodule "joyce-core"]
 	path = joyce-core
 	url = https://github.com/khituras/joyce-core.git
+	branch = master
 [submodule "joyce-base"]
 	path = joyce-base
 	url = https://github.com/khituras/joyce-base.git
+	branch = master
 [submodule "joyce-webapp"]
 	path = joyce-webapp
 	url = https://github.com/fklan/joyce-webapp.git
+	branch = master
