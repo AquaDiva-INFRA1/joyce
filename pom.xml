@@ -66,5 +66,6 @@
 		<module>joyce-processes</module>
 		<module>joyce-reasoning</module>
 		<module>joyce-evaluation</module>
+		<module>joyce-webapp</module>
 	</modules>
 </project>
