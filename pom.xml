@@ -23,6 +23,15 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>external-jars</id>
+			<name>External JAR Repo</name>
+			<url>${project.baseUri}../fileMavenRepository</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
 	</repositories>
 	<build>
 		<plugins>
