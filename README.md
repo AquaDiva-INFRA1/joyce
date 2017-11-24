@@ -24,3 +24,7 @@ The other repositories are
 - joyce-processes: JOYCE services and applications for setting up the ontology repository and performing ontology module selection.
 - joyce-evaluation: Evaluation code for JOYCE and the NCBO Annotator.
 - joyce-webapp: A Tapestry web application employing joyce-processes for web-interfaced module selection. 
+
+### Service Framework and IoC Container
+
+The project uses [Apache Tapestry](http://tapestry.apache.org/) for its service architecture. Tapestry provides an [IoC](https://en.wikipedia.org/wiki/Inversion_of_control) (Inversion of Control) registry and also a web framework for the JOYCE web application.
