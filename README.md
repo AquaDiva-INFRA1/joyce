@@ -23,7 +23,7 @@ To create a fresh instance of JOYCE, the first step is to build the JOYCE ontolo
 JOYCE can be used from the command line and by a web frontend. Note that the initial setup process requires the use of the command line interface.
 
 ### Command line interface
-After a successful build, the *joyce-processes* subproject will contain an executable JAR file in its *target/* directory. The file will be called *joyce-processes-<version>.jar*. Start it from the command line via *java -jar <path to the executable JAR file>*. A menu will appear that will guide you through the desired process.
+After a successful build, the *joyce-processes* subproject will contain an executable JAR file in its *target/* directory. The file will be called *joyce-processes-&lt;version&gt;.jar*. Start it from the command line via *java -jar <path to the executable JAR file>*. A menu will appear that will guide you through the desired process.
   
 ### Web interface
 The subproject *joyce-webapp* contains a [Tapestry 5](http://tapestry.apache.org/) web application. To start it, build JOYCE as described in the *Building JOYCE* section above and deploy the resulting WAR file into a servlet container, e.g. [Jetty](https://www.eclipse.org/jetty/). Alternatively, you can start the application directly from Eclipse after you installed the [Eclipse Jetty Integration](http://eclipse-jetty.github.io/) plugin.
