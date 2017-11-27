@@ -12,6 +12,10 @@ At the ontology module selection step, users give text as input in which ontolog
 
 Note that there is currently no alignment done on the output modules.
 
+## Building JOYCE
+
+To build JOYCE, clone the complete repository with its submodules (see section below) and execute the *Maven package* or the *Maven install* goal in the *joyce/* directory. Note that you will not be able to build the subprojects on their own until you have executed the Maven install goal on the root project (joyce) at least once. You will require a [Maven 3.x](http://apache.maven.org/) installation or IDE plugin to successfully build JOYCE.
+
 ## Structure of the project
 
 The whole JOYCE project consists of this very repository that links to the other JOYCE repositories via git submodules. If you are developing JOYCE you might want to read an introduction regarding this topic.
