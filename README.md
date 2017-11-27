@@ -23,7 +23,9 @@ The other repositories are
 - joyce-reasoning: Was originally meant for reasoning-related scores, not used until today.
 - joyce-processes: JOYCE services and applications for setting up the ontology repository and performing ontology module selection.
 - joyce-evaluation: Evaluation code for JOYCE and the NCBO Annotator.
-- joyce-webapp: A Tapestry web application employing joyce-processes for web-interfaced module selection. 
+- joyce-webapp: A Tapestry web application employing joyce-processes for web-interfaced module selection.
+
+The complete JOYCE project is managed via [Apache Maven](http://maven.apache.org/). The pom.xml of each (sub-)project is the project description and management file. This is where dependencies to other libraries are put into, the Java JVM version is defined and a range of other project management related stuff. The main POM is the one in this project, the subprojects are added as Maven modules in this very POM.
 
 ### Service Framework and IoC Container
 
