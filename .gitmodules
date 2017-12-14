@@ -1,22 +1,22 @@
 [submodule "joyce-reasoning"]
 	path = joyce-reasoning
-	url = https://github.com/khituras/joyce-reasoning.git
+	url = https://github.com/AquaDiva-INFRA1/joyce-reasoning.git
 	branch = master
 [submodule "joyce-processes"]
 	path = joyce-processes
-	url = https://github.com/khituras/joyce-processes.git
+	url = https://github.com/AquaDiva-INFRA1/joyce-processes.git
 	branch = master
 [submodule "joyce-evaluation"]
 	path = joyce-evaluation
-	url = https://github.com/khituras/joyce-evaluation.git
+	url = https://github.com/AquaDiva-INFRA1/joyce-evaluation.git
 	branch = master
 [submodule "joyce-core"]
 	path = joyce-core
-	url = https://github.com/khituras/joyce-core.git
+	url = https://github.com/AquaDiva-INFRA1/joyce-core.git
 	branch = master
 [submodule "joyce-base"]
 	path = joyce-base
-	url = https://github.com/khituras/joyce-base.git
+	url = https://github.com/AquaDiva-INFRA1/joyce-base.git
 	branch = master
 [submodule "joyce-webapp"]
 	path = joyce-webapp
