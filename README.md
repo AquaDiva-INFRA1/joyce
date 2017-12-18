@@ -14,7 +14,16 @@ Note that there is currently no alignment done on the output modules.
 
 ## Building JOYCE
 
-To build JOYCE, clone the complete repository with its submodules (see section below) and execute the *Maven package* or the *Maven install* goal in the *joyce/* directory. Note that you will not be able to build the subprojects on their own until you have executed the Maven install goal on the root project (joyce) at least once. You will require a [Maven 3.x](https://maven.apache.org/) installation or IDE plugin to successfully build JOYCE.
+### Prerequisites
+
+You will require a [Maven 3.x](https://maven.apache.org/) installation or IDE plugin to successfully build JOYCE.
+
+### Download and building
+
+1. Clone the complete repository with its submodules (see section below).
+2. Download the SkySim_Maven from the internal Fusion Lab SVN.
+3. Do `mvn clean install` for the SkySim_Maven project.
+4. Do `mvn clean install` on the cloned JOYCE root project. Note that you will not be able to build the subprojects on their own until you have executed the Maven install goal on the root project (joyce) at least once. 
 
 ## Using JOYCE
 
