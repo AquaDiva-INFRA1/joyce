@@ -22,8 +22,10 @@ You will require a [Maven 3.x](https://maven.apache.org/) installation or IDE pl
 
 1. Clone the complete repository with its submodules (see section below). If you want to develop JOYCE, it would be a good idea to checkout the correct branch (could be master) of each submodule since submodules point by default at a specific commit, not at a branch.
 2. Download the SkySim_Maven from the internal Fusion Lab SVN.
-3. Do `mvn clean install` for the SkySim_Maven project.
-4. Do `mvn clean install` on the cloned JOYCE root project. Note that you will not be able to build the subprojects on their own until you have executed the Maven install goal on the root project (joyce) at least once. 
+3. Clone the `aquadiva-neo4j-plugins` project from the AquaDiva-INFRA1 organization.
+4. Do `mvn clean install` for the SkySim_Maven project.
+5. Do `mvn clean install`for the aquadiva-neo4j-plugins project.
+6. Do `mvn clean install` on the cloned JOYCE root project. Note that you will not be able to build the subprojects on their own until you have executed the Maven install goal on the root project (joyce) at least once. 
 
 ## Using JOYCE
 
