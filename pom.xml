@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.aquadiva</groupId>
 	<artifactId>joyce</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>AquaDiva Ontology Selection</name>
 	<description>The parent POM Maven project for the AquaDiva Ontology Selection tool suite.</description>
 	<packaging>pom</packaging>
