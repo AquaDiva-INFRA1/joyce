@@ -20,5 +20,5 @@
 	branch = master
 [submodule "joyce-webapp"]
 	path = joyce-webapp
-	url = https://github.com/fklan/joyce-webapp.git
+	url = https://github.com/AquaDiva-INFRA1/joyce-webapp.git
 	branch = master
